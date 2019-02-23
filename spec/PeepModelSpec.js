@@ -29,4 +29,8 @@ describe("Peep Model", function () {
     it("has a method for displaying the Peep author's user handle", function () {
         expect(testpeep.getPeepAuthorHandle()).toEqual(testpeep.user_handle)
     })
+
+    it("has a method for identifying Peep by ID number (Intended for clicking through to single peep view)", function () {
+        expect(testpeep.getPeepId()).toEqual(testpeep.id)
+    })
 });

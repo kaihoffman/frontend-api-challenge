@@ -13,7 +13,11 @@
     }
 
     Peep.prototype.getPeepAuthorHandle = function () {
-        return this.user_handle
+        return this.user_handle;
+    }
+
+    Peep.prototype.getPeepId = function () {
+        return this.id;
     }
 
     exports.Peep = Peep
