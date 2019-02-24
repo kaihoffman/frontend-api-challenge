@@ -20,6 +20,5 @@ describe("Peep List model", function () {
 
     it("Has a method for displaying a list's contents", function () {
         expect(peeplist.listPeeps()).toContain(testpeep2)
-        console.log(peeplist.listPeeps());
     })
 });
